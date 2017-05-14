@@ -5,7 +5,7 @@
 import { Platform, NativeModules } from 'react-native'
 const RNChannelInfo = NativeModules.RNChannelInfo
 
-module.exports = {
+export default {
   getChannel: function() {
     return (Platform.OS === 'ios') ? 'IAPPSTORE' : RNChannelInfo.Channel;
   }
