@@ -18,5 +18,5 @@ android {
 }
 
 dependencies {
-    implementation 'com.facebook.react:react-native:0.11.+'
+    implementation 'com.facebook.react:react-native:+'
 }
